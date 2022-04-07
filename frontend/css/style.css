@@ -5,11 +5,11 @@
 /* GLOBAL STYLES */
 
 :root {
-  --font-primary: "Rubik Bubbles", sans-serif;
-  --font-secondary: "Rubik Moonrocks", serif;
+  --font-primary: "Rubik Moonrock", sans-serif;
+  --font-secondary: "Rubik Bubbles", serif;
   --font-code: "Anton", monospace;
   --bg-color: #59cf68cb;
-  --bg-color-transparent: #1b7413;
+  --bg-color-transparent: #c9fd0d;
   --font-color: #ffffff;
   --btn-bg-color: #ffffff;
   --accent-color: #13d301;
