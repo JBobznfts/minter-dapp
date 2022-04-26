@@ -7,7 +7,7 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "Pixel-Seacil(Ecofriends";
+const namePrefix = "Pixel-Seacil(Ecofriends)";
 const description = "Meet Seacil in his pixelated form come help him and friends make the world a more better eco-friendly placeto stay. seacil is part of a collection called EcoFriends With Seacil you will recive a monthly package of seaweed and other wonderful natrual products";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
@@ -47,7 +47,7 @@ const LIMIT = 2; // Your API key rate limit
 const CHAIN = 'rinkeby'; // only rinkeby or polygon
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
-const CONTRACT_NAME = 'Pixel-Seacil(Ecofriends';
+const CONTRACT_NAME = 'Pixel-Seacil(Ecofriends)';
 const CONTRACT_SYMBOL = 'CP';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
 const OWNER_ADDRESS = '0x2281629D76925413b9fCfDB548Fb05772417Cf0d';
@@ -57,7 +57,7 @@ const MINT_PRICE = 0.5; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC
 const TOKENS_PER_MINT = 2; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PUBLIC_MINT_START_DATE = "2022-04-28T11:30:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
+const PUBLIC_MINT_START_DATE = "2022-04-25T11:30:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
 
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
 const PRESALE_MINT_START_DATE = "2022-04-07T11:30:48+00:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
