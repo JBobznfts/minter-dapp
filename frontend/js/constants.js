@@ -1,5 +1,5 @@
-const contractAddress = "0x4C810d0086B1f94Ece42CEAdAb9b2c011cA3dF6C"; //Replace with your own contract address
-const chain = 'rinkeby'; // rinkeby or polygon
+const contractAddress = "0xE7f3BAa3D4693e971fB88899a4c3B31D4B314C1d"; //Replace with your own contract address
+const chain = 'polygon'; // rinkeby or polygon
 
 const welcome_h1 = "Welcome to the EcoFriends:Pixel-Seacil collection!!";
 const welcome_h2 = "Connect to MetaMask to Get Started";
