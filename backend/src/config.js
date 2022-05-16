@@ -23,6 +23,36 @@ const layerConfigurations = [
       { name: "Mouth" },
     ],
   },
+  {
+    growEditionSizeTo: 180,
+    layersOrder: [
+      { name: "TrunkieBackground" },
+      { name: "BlossumBase" },
+      { name: "BlossumEyes" },
+      { name: "BlossumMouth" },
+      { name: "Objects" },
+    ],
+  },
+  {
+    growEditionSizeTo: 200,
+    layersOrder: [
+      { name: "TrunkieBackground" },
+      { name: "BirchBase" },
+      { name: "BirchEyes" },
+      { name: "BirchMouth" },
+      { name: "Objects" },
+    ],
+  },
+  {
+    growEditionSizeTo: 350,
+    layersOrder: [
+      { name: "TrunkieBackground" },
+      { name: "TrunkieBase" },
+      { name: "TrunkieEyes" },
+      { name: "TrunkieMouth" },
+      { name: "Objects" },
+    ],
+  },
 ];
 
 const shuffleLayerConfigurations = false;
