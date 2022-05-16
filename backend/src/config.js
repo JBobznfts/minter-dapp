@@ -7,14 +7,14 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "Pixel-Seacil(Ecofriends)";
-const description = "Meet Seacil in his pixelated form come help him and friends make the world a more better eco-friendly placeto stay. seacil is part of a collection called EcoFriends With Seacil you will recive a monthly package of seaweed and other wonderful natrual products";
+const namePrefix = "EcoFriends-PixelEdition";
+const description = "Come meet the gang that are trying to make a change to this world and make it a much more green efficent place to live so come join us and see what unique monthly benifits youll recive.";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 400,
+    growEditionSizeTo: 300,
     layersOrder: [
       { name: "Background" },
       { name: "Base" },
@@ -24,7 +24,7 @@ const layerConfigurations = [
     ],
   },
   {
-    growEditionSizeTo: 180,
+    growEditionSizeTo: 480,
     layersOrder: [
       { name: "TrunkieBackground" },
       { name: "BlossumBase" },
@@ -34,7 +34,7 @@ const layerConfigurations = [
     ],
   },
   {
-    growEditionSizeTo: 200,
+    growEditionSizeTo: 680,
     layersOrder: [
       { name: "TrunkieBackground" },
       { name: "BirchBase" },
@@ -44,7 +44,7 @@ const layerConfigurations = [
     ],
   },
   {
-    growEditionSizeTo: 350,
+    growEditionSizeTo: 880,
     layersOrder: [
       { name: "TrunkieBackground" },
       { name: "TrunkieBase" },
@@ -66,7 +66,7 @@ const format = {
 };
 
 const extraMetadata = {
-  external_url: "https://ecofriends-pixeleditions.netlify.app/", // Replace with your website or remove this line if you do not have one.
+  external_url: "https://pow.unicornplatform.page/", // Replace with your website or remove this line if you do not have one.
 };
 
 // NFTPort Info
@@ -77,14 +77,14 @@ const LIMIT = 2; // Your API key rate limit
 const CHAIN = 'polygon'; // only rinkeby or polygon
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
-const CONTRACT_NAME = 'Pixel-Seacil(Ecofriends)';
-const CONTRACT_SYMBOL = 'PS';
+const CONTRACT_NAME = 'EcoFriends-PixelEdition';
+const CONTRACT_SYMBOL = 'EFPE';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
 const OWNER_ADDRESS = '0x2281629D76925413b9fCfDB548Fb05772417Cf0d';
 const TREASURY_ADDRESS = '0x2281629D76925413b9fCfDB548Fb05772417Cf0d';
-const MAX_SUPPLY = 400; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
-const MINT_PRICE = 400; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
-const TOKENS_PER_MINT = 2; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
+const MAX_SUPPLY = 879; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
+const MINT_PRICE = 620; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
+const TOKENS_PER_MINT = 3; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
 const PUBLIC_MINT_START_DATE = "2022-05-05T11:30:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00

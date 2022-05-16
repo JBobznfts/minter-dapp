@@ -1,4 +1,4 @@
-const contractAddress = "0xE7f3BAa3D4693e971fB88899a4c3B31D4B314C1d"; //Replace with your own contract address
+const contractAddress = "0x36FBb489C3D040E8162d3DA83Bb8792335017Dd4"; //Replace with your own contract address
 const chain = 'polygon'; // rinkeby or polygon
 
 const welcome_h1 = "Welcome to the EcoFriends:Pixel-Seacil collection!!";
